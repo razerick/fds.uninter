@@ -8,8 +8,8 @@
 	
 
 }
-img 
-{url(foto1.jpeg);
-200px;
+img[src$=".jpeg"],
+img[src$=".jpg"] {
+  width: 200px;
+  height: auto; /* Mantém a proporção da imagem */
 }
-
