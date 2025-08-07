@@ -8,9 +8,7 @@
 	
 
 }
-{img[src$=".jpeg"],
-img[src$=".jpg"] {
+img {
   width: 200px;
-  height: auto; /* Mantém a proporção da imagem */
+  height: auto;
 }
-
